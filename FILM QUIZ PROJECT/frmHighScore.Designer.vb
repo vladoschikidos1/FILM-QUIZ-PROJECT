@@ -22,28 +22,30 @@ Partial Class frmHighScore
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblMessage = New System.Windows.Forms.Label()
         Me.lstHighScore = New System.Windows.Forms.ListBox()
         Me.btnAgain = New System.Windows.Forms.Button()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'lblMessage
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 58)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(826, 31)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Congratulation Your Score Will Be Added To The Hall Of Fame"
+        Me.lblMessage.AutoSize = True
+        Me.lblMessage.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMessage.Location = New System.Drawing.Point(12, 58)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(826, 31)
+        Me.lblMessage.TabIndex = 0
+        Me.lblMessage.Text = "Congratulation Your Score Will Be Added To The Hall Of Fame"
         '
         'lstHighScore
         '
+        Me.lstHighScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstHighScore.FormattingEnabled = True
+        Me.lstHighScore.ItemHeight = 31
         Me.lstHighScore.Location = New System.Drawing.Point(47, 150)
         Me.lstHighScore.Name = "lstHighScore"
-        Me.lstHighScore.Size = New System.Drawing.Size(548, 251)
+        Me.lstHighScore.Size = New System.Drawing.Size(548, 221)
         Me.lstHighScore.TabIndex = 1
         '
         'btnAgain
@@ -74,7 +76,7 @@ Partial Class frmHighScore
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnAgain)
         Me.Controls.Add(Me.lstHighScore)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblMessage)
         Me.Name = "frmHighScore"
         Me.Text = "frmHighScore"
         Me.ResumeLayout(False)
@@ -82,7 +84,7 @@ Partial Class frmHighScore
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblMessage As Label
     Friend WithEvents lstHighScore As ListBox
     Friend WithEvents btnAgain As Button
     Friend WithEvents btnQuit As Button

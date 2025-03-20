@@ -73,7 +73,7 @@ Partial Class frmQuestion1
         Me.GroupBox1.Controls.Add(Me.btnAnswer3)
         Me.GroupBox1.Controls.Add(Me.btnAnswer2)
         Me.GroupBox1.Controls.Add(Me.btnAnswer1)
-        Me.GroupBox1.Location = New System.Drawing.Point(295, 134)
+        Me.GroupBox1.Location = New System.Drawing.Point(278, 134)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(229, 234)
         Me.GroupBox1.TabIndex = 3

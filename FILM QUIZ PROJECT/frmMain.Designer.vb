@@ -107,6 +107,7 @@ Partial Class frmMain
         Me.txtPlayerName.Name = "txtPlayerName"
         Me.txtPlayerName.Size = New System.Drawing.Size(307, 38)
         Me.txtPlayerName.TabIndex = 6
+        Me.txtPlayerName.Text = "ed"
         '
         'lblPlayerName
         '

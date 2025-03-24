@@ -28,13 +28,13 @@ Partial Class frmQuestion1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
         Me.btnNext = New System.Windows.Forms.Button()
-        Me.ProgressBarQ = New System.Windows.Forms.ProgressBar()
-        Me.tmrQuestion = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBarQ1 = New System.Windows.Forms.ProgressBar()
+        Me.tmrQuestion1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -82,29 +82,17 @@ Partial Class frmQuestion1
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         '
-        'btnAnswer1
+        'btnAnswer4
         '
-        Me.btnAnswer1.AutoSize = True
-        Me.btnAnswer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswer1.Location = New System.Drawing.Point(12, 31)
-        Me.btnAnswer1.Name = "btnAnswer1"
-        Me.btnAnswer1.Size = New System.Drawing.Size(96, 35)
-        Me.btnAnswer1.TabIndex = 0
-        Me.btnAnswer1.TabStop = True
-        Me.btnAnswer1.Text = "1920"
-        Me.btnAnswer1.UseVisualStyleBackColor = True
-        '
-        'btnAnswer2
-        '
-        Me.btnAnswer2.AutoSize = True
-        Me.btnAnswer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswer2.Location = New System.Drawing.Point(12, 81)
-        Me.btnAnswer2.Name = "btnAnswer2"
-        Me.btnAnswer2.Size = New System.Drawing.Size(96, 35)
-        Me.btnAnswer2.TabIndex = 1
-        Me.btnAnswer2.TabStop = True
-        Me.btnAnswer2.Text = "1921"
-        Me.btnAnswer2.UseVisualStyleBackColor = True
+        Me.btnAnswer4.AutoSize = True
+        Me.btnAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer4.Location = New System.Drawing.Point(12, 184)
+        Me.btnAnswer4.Name = "btnAnswer4"
+        Me.btnAnswer4.Size = New System.Drawing.Size(96, 35)
+        Me.btnAnswer4.TabIndex = 3
+        Me.btnAnswer4.TabStop = True
+        Me.btnAnswer4.Text = "1935"
+        Me.btnAnswer4.UseVisualStyleBackColor = True
         '
         'btnAnswer3
         '
@@ -118,17 +106,29 @@ Partial Class frmQuestion1
         Me.btnAnswer3.Text = "1931"
         Me.btnAnswer3.UseVisualStyleBackColor = True
         '
-        'btnAnswer4
+        'btnAnswer2
         '
-        Me.btnAnswer4.AutoSize = True
-        Me.btnAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswer4.Location = New System.Drawing.Point(12, 184)
-        Me.btnAnswer4.Name = "btnAnswer4"
-        Me.btnAnswer4.Size = New System.Drawing.Size(96, 35)
-        Me.btnAnswer4.TabIndex = 3
-        Me.btnAnswer4.TabStop = True
-        Me.btnAnswer4.Text = "1935"
-        Me.btnAnswer4.UseVisualStyleBackColor = True
+        Me.btnAnswer2.AutoSize = True
+        Me.btnAnswer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer2.Location = New System.Drawing.Point(12, 81)
+        Me.btnAnswer2.Name = "btnAnswer2"
+        Me.btnAnswer2.Size = New System.Drawing.Size(96, 35)
+        Me.btnAnswer2.TabIndex = 1
+        Me.btnAnswer2.TabStop = True
+        Me.btnAnswer2.Text = "1921"
+        Me.btnAnswer2.UseVisualStyleBackColor = True
+        '
+        'btnAnswer1
+        '
+        Me.btnAnswer1.AutoSize = True
+        Me.btnAnswer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer1.Location = New System.Drawing.Point(12, 31)
+        Me.btnAnswer1.Name = "btnAnswer1"
+        Me.btnAnswer1.Size = New System.Drawing.Size(96, 35)
+        Me.btnAnswer1.TabIndex = 0
+        Me.btnAnswer1.TabStop = True
+        Me.btnAnswer1.Text = "1920"
+        Me.btnAnswer1.UseVisualStyleBackColor = True
         '
         'btnNext
         '
@@ -140,24 +140,24 @@ Partial Class frmQuestion1
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
         '
-        'ProgressBarQ
+        'ProgressBarQ1
         '
-        Me.ProgressBarQ.Location = New System.Drawing.Point(45, 408)
-        Me.ProgressBarQ.Name = "ProgressBarQ"
-        Me.ProgressBarQ.Size = New System.Drawing.Size(516, 30)
-        Me.ProgressBarQ.TabIndex = 5
-        Me.ProgressBarQ.Value = 10
+        Me.ProgressBarQ1.Location = New System.Drawing.Point(45, 408)
+        Me.ProgressBarQ1.Name = "ProgressBarQ1"
+        Me.ProgressBarQ1.Size = New System.Drawing.Size(516, 30)
+        Me.ProgressBarQ1.TabIndex = 5
+        Me.ProgressBarQ1.Value = 10
         '
-        'tmrQuestion
+        'tmrQuestion1
         '
-        Me.tmrQuestion.Interval = 1000
+        Me.tmrQuestion1.Interval = 1000
         '
         'frmQuestion1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.ProgressBarQ)
+        Me.Controls.Add(Me.ProgressBarQ1)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.PictureBox2)
@@ -183,6 +183,6 @@ Partial Class frmQuestion1
     Friend WithEvents btnAnswer2 As RadioButton
     Friend WithEvents btnAnswer1 As RadioButton
     Friend WithEvents btnNext As Button
-    Friend WithEvents ProgressBarQ As ProgressBar
-    Friend WithEvents tmrQuestion As Timer
+    Friend WithEvents ProgressBarQ1 As ProgressBar
+    Friend WithEvents tmrQuestion1 As Timer
 End Class

@@ -26,14 +26,14 @@ Partial Class frmQuestion2
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmQuestion2))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
         Me.btnNext = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.ProgressBarQ = New System.Windows.Forms.ProgressBar()
-        Me.tmrQuestion = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBarQ2 = New System.Windows.Forms.ProgressBar()
+        Me.tmrQuestion2 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -61,29 +61,17 @@ Partial Class frmQuestion2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Next"
         '
-        'btnAnswer1
+        'btnAnswer4
         '
-        Me.btnAnswer1.AutoSize = True
-        Me.btnAnswer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswer1.Location = New System.Drawing.Point(15, 45)
-        Me.btnAnswer1.Name = "btnAnswer1"
-        Me.btnAnswer1.Size = New System.Drawing.Size(129, 29)
-        Me.btnAnswer1.TabIndex = 0
-        Me.btnAnswer1.TabStop = True
-        Me.btnAnswer1.Text = " Frozen II"
-        Me.btnAnswer1.UseVisualStyleBackColor = True
-        '
-        'btnAnswer3
-        '
-        Me.btnAnswer3.AutoSize = True
-        Me.btnAnswer3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswer3.Location = New System.Drawing.Point(15, 165)
-        Me.btnAnswer3.Name = "btnAnswer3"
-        Me.btnAnswer3.Size = New System.Drawing.Size(165, 29)
-        Me.btnAnswer3.TabIndex = 1
-        Me.btnAnswer3.TabStop = True
-        Me.btnAnswer3.Text = "Incredibles 2"
-        Me.btnAnswer3.UseVisualStyleBackColor = True
+        Me.btnAnswer4.AutoSize = True
+        Me.btnAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer4.Location = New System.Drawing.Point(15, 232)
+        Me.btnAnswer4.Name = "btnAnswer4"
+        Me.btnAnswer4.Size = New System.Drawing.Size(151, 29)
+        Me.btnAnswer4.TabIndex = 3
+        Me.btnAnswer4.TabStop = True
+        Me.btnAnswer4.Text = "Toy Story 4"
+        Me.btnAnswer4.UseVisualStyleBackColor = True
         '
         'btnAnswer2
         '
@@ -97,17 +85,29 @@ Partial Class frmQuestion2
         Me.btnAnswer2.Text = "The Lion King (2019)"
         Me.btnAnswer2.UseVisualStyleBackColor = True
         '
-        'btnAnswer4
+        'btnAnswer3
         '
-        Me.btnAnswer4.AutoSize = True
-        Me.btnAnswer4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnswer4.Location = New System.Drawing.Point(15, 232)
-        Me.btnAnswer4.Name = "btnAnswer4"
-        Me.btnAnswer4.Size = New System.Drawing.Size(151, 29)
-        Me.btnAnswer4.TabIndex = 3
-        Me.btnAnswer4.TabStop = True
-        Me.btnAnswer4.Text = "Toy Story 4"
-        Me.btnAnswer4.UseVisualStyleBackColor = True
+        Me.btnAnswer3.AutoSize = True
+        Me.btnAnswer3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer3.Location = New System.Drawing.Point(15, 165)
+        Me.btnAnswer3.Name = "btnAnswer3"
+        Me.btnAnswer3.Size = New System.Drawing.Size(165, 29)
+        Me.btnAnswer3.TabIndex = 1
+        Me.btnAnswer3.TabStop = True
+        Me.btnAnswer3.Text = "Incredibles 2"
+        Me.btnAnswer3.UseVisualStyleBackColor = True
+        '
+        'btnAnswer1
+        '
+        Me.btnAnswer1.AutoSize = True
+        Me.btnAnswer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnswer1.Location = New System.Drawing.Point(15, 45)
+        Me.btnAnswer1.Name = "btnAnswer1"
+        Me.btnAnswer1.Size = New System.Drawing.Size(129, 29)
+        Me.btnAnswer1.TabIndex = 0
+        Me.btnAnswer1.TabStop = True
+        Me.btnAnswer1.Text = " Frozen II"
+        Me.btnAnswer1.UseVisualStyleBackColor = True
         '
         'btnNext
         '
@@ -129,24 +129,24 @@ Partial Class frmQuestion2
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
-        'ProgressBarQ
+        'ProgressBarQ2
         '
-        Me.ProgressBarQ.Location = New System.Drawing.Point(62, 507)
-        Me.ProgressBarQ.Name = "ProgressBarQ"
-        Me.ProgressBarQ.Size = New System.Drawing.Size(516, 30)
-        Me.ProgressBarQ.TabIndex = 6
-        Me.ProgressBarQ.Value = 10
+        Me.ProgressBarQ2.Location = New System.Drawing.Point(62, 507)
+        Me.ProgressBarQ2.Name = "ProgressBarQ2"
+        Me.ProgressBarQ2.Size = New System.Drawing.Size(516, 30)
+        Me.ProgressBarQ2.TabIndex = 6
+        Me.ProgressBarQ2.Value = 10
         '
-        'tmrQuestion
+        'tmrQuestion2
         '
-        Me.tmrQuestion.Interval = 1000
+        Me.tmrQuestion2.Interval = 1000
         '
         'frmQuestion2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(955, 562)
-        Me.Controls.Add(Me.ProgressBarQ)
+        Me.Controls.Add(Me.ProgressBarQ2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.GroupBox1)
@@ -169,6 +169,6 @@ Partial Class frmQuestion2
     Friend WithEvents btnAnswer1 As RadioButton
     Friend WithEvents btnNext As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents ProgressBarQ As ProgressBar
-    Friend WithEvents tmrQuestion As Timer
+    Friend WithEvents ProgressBarQ2 As ProgressBar
+    Friend WithEvents tmrQuestion2 As Timer
 End Class
